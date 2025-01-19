@@ -5,14 +5,18 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import About from './components/About';
 
+
 function App() {
   return (
-    <>
+    <div className='App'>
      <Header />
      <Contact />
      <Services />
      <About />
-    </>
+   
+    </div>     
+    
+    
   );
 }
 
